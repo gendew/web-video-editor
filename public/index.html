@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="renderer" content="webkit" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="description" content="PPT转视频" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>PPT转视频</title>
+  </head>
+  <body id="t">
+    <noscript>
+      <p style="margin: 0; padding: 20px 0; text-align: center"><strong>该页面需要启用JavaScript才能正常显示，请到浏览器设置中启用JavaScript。</strong></p>
+    </noscript>
+    <script>
+      !(function (e) {
+        var o
+        ;(/MSIE\s+\d|Trident/.test(e.userAgent) || !window.globalThis) &&
+          ((o = 'zh-CN' === e.language || 'zh-CN' === e.userLanguage || 'zh-CN' === e.systemLanguage),
+          alert(o ? '很抱歉！您的浏览器已过时，不再被支持，请使用 Chrome、Edge 等现代浏览器代替。点击确定后将会自动跳转到 Chrome 下载地址 :)' : 'Sorry! Your web browser is not supported, please use Chrome, Edge etc. After click OK will auto jump to Chrome download page :)'),
+          (location.href = o ? 'https://www.google.cn/chrome/' : 'https://www.google.com/chrome/'))
+      })(navigator)
+    </script>
+    <script>
+      ;(function (win, export_obj) {
+        win['LogAnalyticsObject'] = export_obj
+        if (!win[export_obj]) {
+          function _collect() {
+            _collect.q.push(arguments)
+          }
+          _collect.q = _collect.q || []
+          win[export_obj] = _collect
+        }
+        win[export_obj].l = +new Date()
+      })(window, 'collectEvent')
+    </script>
+    <script async src="https://lf3-data.volccdn.com/obj/data-static/log-sdk/collect/5.0/collect-rangers-v5.1.4.js"></script>
+    <div id="coll-root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+</html>

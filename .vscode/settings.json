@@ -1,0 +1,22 @@
+{
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "files.eol": "\n",
+  "html.format.extraLiners": "",
+  "html.format.wrapLineLength": 0,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "javascript",
+    "typescript": "javascript",
+    "typescriptreact": "javascript"
+  },
+  "tailwindCSS.experimental.classRegex": [["clsx|classnames\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]],
+  "[svg]": {
+    "editor.formatOnSave": false
+  }
+}
